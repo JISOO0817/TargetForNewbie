@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/fbutton"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=" 매크로 설정하는 법"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/m1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오른 쪽 상단에 설정 이미지 클릭"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/m2" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/m3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="게임 내에서는 대화 아이콘을 클릭하면 된다."
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/fbutton"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="위치"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/m4" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/fbutton"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=" 매크로 의미"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="고마워요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 구출받거나 치료받거나 서로 정말 고마울 때 쓴다.\n 2. 꼽핑 (구출실패하거나 감시자에게 일찍 잡힌경우)"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="빨리가요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 갑툭튀 감시자인 경우(요셉,마리,우산,꿈마) \n2. 어그로 끄는데 방해되는 경우 \n3. 어그로 끌다가 감시자에게 손절당한 경우(감시자 목표전환)"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="암호장치의 해독준비가 완료됐어요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 마지막 해독기가 99% 돌아간경우 (아드각 맞추기 위함) "
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="어서 문을 열어요! 제가 구하러 갈게요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 움직이지 마세요! 내가 도와줄게요! 핑과 의미가 같다. \n2. 해독을 멈춰요! 제가 구하러 갈게요! 핑과 의미가 같다. \n 3. 구출하러 간다는 의미"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="도움이 필요해요. 어서 와주세요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 구출 혹은 치료를 받기 위한 핑\n 2.팀에 선지자가 있는 경우 부엉이 달라는 의미로도 쓰임 \n3. 마지막 해독기를 잡고 있는 경우(해독 같이 돌리자!)"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="감시자가 제 근처에 있어요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 어그로 끌고있는 경우 "
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="지하 통로는 여기  있어요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 시작하자마자 찍는 경우는 지하 감옥을 뜻한다. \n2. 해독기가 2개이상 돌아간 직후엔 개구를 뜻한다.  \n3. 빨리 나가달라는 뜻 (개구로 나가기 위함)"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FD0202"
+            android:text="해독에 집중하세요!"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="20dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:padding="10dp"
+            android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 게임 시작 후 자신이 있는 위치를 알려준다. ( = 나 해독기를 여기서 돌리고 있어!) \n2.생존자가 의자에 앉혀진 후 팀원이 찍는 건 구하지 말라는 뜻도 있다."
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="감시자에게 만류가 있어요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 감시자에게 한 대만 맞아도 기절하므로 조심하라는 의미 (빨간 눈) \n2. 벌레컷 당한 생존자가 있는 경우 팀원이 꼽핑으로 쓰기도 한다."
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="먼저 갈게요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 시작하자마자 팀원이 이 핑을 찍는다면 감시자가 갑툭튀 감시자인 걸 알리는 경우이다.\n2. 해독기가 한 개 남았을 경우 99$로 켤 준비가 되었다는 뜻이다. "
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="같이 해독하지 마요!"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. 게임 시작 후에 해독기는 무조건 1인 1해독기다. 가끔 뉴비들은 한 해독기를 둘이 돌리는데 그러지 말라는 뜻이다. "
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/fbutton"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text=" 인격창 들어가는 법"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오른 쪽 하단에 있는 책을 누른다."
+                android:textSize="15dp"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i2" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="책 속의 캐릭터를 누른다."
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:lineSpacingExtra="20dp"
+                android:fontFamily="@font/baemin"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i3" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i4" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:lineSpacingExtra="20dp"
+                android:text="최고 인격은 120이며, 뉴비를 제외하고 대부분이 120인격을 갖추고 있다. 사진에서 보는 바와 같이 시계방향으로 가장 끝에 있는 인격을 12시, 3시,  6시, 9시라 부른다."
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:padding="10dp"
+                android:text="잠재특성 옆의 설정 버튼을 누른다."
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/fbutton"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="  3시의 중요성"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i11" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:lineSpacingExtra="20dp"
+                android:text="3시 인격은 너무나도 중요한 필수 인격이다. 아드를 찍은 상태에서 마지막 해독기를 키면 지렁이 상태인 생존자를 반피 상태로 회복시키며 순간 이동 속도가 빨라진다. +) 반피 상태의 생존자는 건강상태로 회복"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="반피였던 3명의 생존자가 건강상태로 회복되었다. "
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/fbutton"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="9시 VS 6시"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3시는 필수인격 이기 때문에 3시를 찍고나면 6시나 9시중 하나만 풀(FULL) 로 찍을 수 있다.(3시 아드를 찍고 나면 80포인트가 남기 때문)"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#FD0202"
+                android:text=" 9시"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9시는 창틀과 판자 각 각을 넘었을 때 순간적으로 스피드를 얻게하는 인격이다. 어그로에 자신이 없다거나 혹은 어그로 끌기 어려운 캐릭터를 픽 했을 때 그리고 팀에 구출캐릭터가 이미 있을 때 들면 좋다."
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i111" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i123" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/i321" />
+
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:layout_gravity="center"
+                android:text=" 6시"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6시는 주로 구출캐릭터들이 들게된다. (용병, 공군,포워드, 무로 등) 의자에 앉혀진 생존자는 6시인격을 찍은 생존자에게 구출받으면 20초동안 무적상태로 쓰러지지 않는다."
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ii1" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ii2" />
+
+            <ImageView
+                android:id="@+id/iv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6시 인격을 찍은 생존자가 구출하면 구출당한 생존자와 구출한 생존자의 상태에 파란 원이 그려지고, 20초 안에 맞으면 빨간 원이 생긴다."
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/card">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/fbutton"
+                android:fontFamily="@font/baemin"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="그 외 인격들"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="#FD0202"
+                android:text="수난"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/why1" />
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/why2" />
+
+
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="의자에 앉은 생존자가 '수난'을 찍었을 시 4명의 생존자가 서로의 위치를 볼 수 있다.(노란색) 솔랭러들에게 수난은 필수다.(구출동선이 꼬이지 않음)"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="구사일생"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/why3" />
+
+
+            <ImageView
+                android:id="@+id/iv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/selfhill" />
+
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="구사일생 인격을 찍으면 기절 상태에서 노란게이지를 다 채우면 반피상태로 회복이 된다."
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="불굴"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <ImageView
+                android:id="@+id/iv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/why4" />
+
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="쓰러진 상태에서 기어가는 속도를 빠르게 해준다. (출구로 나가기 직전에 감시자에게 평타를 맞은 경우 감시자의 평타 회복 시간동안 나갈 수 있게 해주는 인격)"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FD0202"
+                android:text="괴력"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+            <ImageView
+                android:id="@+id/iv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/why5" />
+
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="감시자에게 판자를 적중하면 (뚝배기) 감시자의 기절 회복 속도를 늦춰준다. (무희 느린오르골, 카우보이 제격)"
+                android:lineSpacingExtra="20dp"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@font/baemin"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

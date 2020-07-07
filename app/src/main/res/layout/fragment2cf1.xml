@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/home"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:fontFamily="@font/baemin"
+                android:text="지하통로"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/baemin"
+                android:lineSpacingExtra="5dp"
+                android:text="해독기가 3개 남았을 때 맵의 지정된 장소에 랜덤으로 생성되며, 마지막 한 명만이 나갈 수 있다."
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="#67AEFD"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/tab_text"
+            app:tabSelectedTextColor="#000000">
+
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_Item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab1"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_Item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab2"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_Item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab3"/>
+
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_Item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab4"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_Item5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab5"/>
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_Item6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab6"/>
+
+
+            </com.google.android.material.tabs.TabLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1750dp"
+                android:orientation="vertical">
+
+
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/vp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

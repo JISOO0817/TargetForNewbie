@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">제5인격 지식백과</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="인격">필수인격</string>
+    <string name="매크로">매크로</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string-array name="yonga">
+        <item>그님티</item>
+        <item>귀집</item>
+        <item>디코</item>
+        <item>맵맛플</item>
+        <item>빠대</item>
+        <item>빡커</item>
+        <item>솔랭</item>
+        <item>숨꼭</item>
+        <item>아드각</item>
+        <item>연커</item>
+        <item>일겜</item>
+        <item>의지</item>
+        <item>패작</item>
+        <item>할</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
