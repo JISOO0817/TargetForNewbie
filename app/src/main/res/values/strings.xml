@@ -9,10 +9,16 @@
 
     <string name="인격">필수인격</string>
     <string name="매크로">매크로</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+
+
+    <string name="fragment1cf2">인격창 들어가는 법</string>
+    <string name="fragment1cf2_1">오른 쪽 하단에 있는 책을 누른다.</string>
+    <string name="fragment1cf2_2">책 속의 캐릭터를 누른다.</string>
+    <string name="fragment1cf2_3">최고 인격은 120이며, 뉴비를 제외하고 대부분이 120인격을 갖추고 있다. 사진에서 보는 바와 같이 시계방향으로 가장 끝에 있는 인격을 12시, 3시,  6시, 9시라 부른다.</string>
+    <string name="fragment1cf2_4">잠재특성 옆의 설정 버튼을 누른다.</string>
+    <string name="fragment1cf2_5">책 속의 캐릭터를 누른다.</string>
+
+
 
     <string-array name="yonga">
         <item>그님티</item>
