@@ -11,8 +11,8 @@ public class BaroPagerAdapter extends FragmentPagerAdapter {
 
 
 
-    final int pageCount = 3;
-    private String tabTitles[] = new String[]{"YOUTUBE","CAFE","TWITTER"};
+    final int pageCount = 2;
+    private String tabTitles[] = new String[]{"CAFE","TWITTER"};
 
     public BaroPagerAdapter(@NonNull FragmentManager fm) {
         super(fm);
@@ -24,10 +24,9 @@ public class BaroPagerAdapter extends FragmentPagerAdapter {
         switch (position){
 
             case 0:
-                return new YoutubeFragment();
-            case 1:
                 return new CafeFragment();
-            case 2:
+
+            case 1:
                 return new TwiterFragment();
                 default:
                     return null;

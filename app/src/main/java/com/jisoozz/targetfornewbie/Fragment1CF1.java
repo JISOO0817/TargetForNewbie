@@ -27,6 +27,7 @@ import androidx.recyclerview.widget.RecyclerView;
 public class Fragment1CF1 extends Fragment {
 
     TextView textView;
+    RecyclerView recyclerView;
 
 
     @Nullable
@@ -43,12 +44,20 @@ public class Fragment1CF1 extends Fragment {
 
 
 
-        RecyclerView recyclerView = rootView.findViewById(R.id.recyclerView);
+        recyclerView = rootView.findViewById(R.id.recyclerView);
 
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(layoutManager);
 
+
+        showCharacter();
+
+
+        return rootView;
+    }
+
+    private void showCharacter() {
         final CharacterAdapter adapter = new CharacterAdapter();
 
         adapter.addItem(new Character(R.drawable.nurse1,"의사","에밀리 다이어",R.drawable.hjung,R.drawable.ajung));
@@ -77,11 +86,14 @@ public class Fragment1CF1 extends Fragment {
         adapter.addItem(new Character(R.drawable.uabu,"우편배달부","빅터 글랜즈",R.drawable.hjung,R.drawable.ajung));
         adapter.addItem(new Character(R.drawable.myozigi,"묘지기","앤드루 크리스",R.drawable.hha,R.drawable.asang));
         adapter.addItem(new Character(R.drawable.jasu,"죄수","루카 바르세이",R.drawable.hsang,R.drawable.ajung));
+        adapter.addItem(new Character(R.drawable.gonchung,"곤충학자","메릴 플리니",R.drawable.hjung,R.drawable.ajung));
+        adapter.addItem(new Character(R.drawable.hwaga,"화가","아이거 월든",R.drawable.hjung,R.drawable.question));
         adapter.addItem(new Character(R.drawable.hanguna,"행운아","추리용 분신",R.drawable.hjung,R.drawable.ajung));
 
 
 
         recyclerView.setAdapter(adapter);
+
         adapter.setOnItemClickListener(new OnCharacterItemClickListener() {
             @Override
             public void onItemClick(CharacterAdapter.ViewHolder holder, View view, int position) {
@@ -95,392 +107,197 @@ public class Fragment1CF1 extends Fragment {
 
 
                 Character item = adapter.getItem(position);
+                close.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        dialog.dismiss();
+                    }
+                });
                 switch (position) {
                     case 0:
 
 
                         iv.setImageResource(R.drawable.nm1);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
-
-
                         break;
                     case 1:
 
                         iv.setImageResource(R.drawable.nlayer1);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
                     case 2:
 
                         iv.setImageResource(R.drawable.ntheef);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 3:
 
                         iv.setImageResource(R.drawable.ngarder);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 4:
 
                         iv.setImageResource(R.drawable.nmagician);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 5:
 
                         iv.setImageResource(R.drawable.nmohum);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 6:
 
                         iv.setImageResource(R.drawable.nyong);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 7:
 
                         iv.setImageResource(R.drawable.ngun);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 8:
 
                         iv.setImageResource(R.drawable.nsha);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 9:
 
                         iv.setImageResource(R.drawable.nmecha);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 10:
 
                         iv.setImageResource(R.drawable.nforward);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 11:
 
                         iv.setImageResource(R.drawable.nblind);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 12:
 
                         iv.setImageResource(R.drawable.nperfumer);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 13:
 
                         iv.setImageResource(R.drawable.ncow);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 14:
 
                         iv.setImageResource(R.drawable.ndancer);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 15:
 
                         iv.setImageResource(R.drawable.nseer);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 16:
 
                         iv.setImageResource(R.drawable.nnab);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 17:
 
                         iv.setImageResource(R.drawable.ntam);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 18:
 
                         iv.setImageResource(R.drawable.njusul);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 19:
 
                         iv.setImageResource(R.drawable.nyaman);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 20:
 
                         iv.setImageResource(R.drawable.ngok);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 21:
 
                         iv.setImageResource(R.drawable.nhang);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 22:
 
                         iv.setImageResource(R.drawable.nbartender);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 23:
 
                         iv.setImageResource(R.drawable.nbaedar);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 24:
 
                         iv.setImageResource(R.drawable.nmyo);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 25:
 
                         iv.setImageResource(R.drawable.njysu);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                     case 26:
 
+                        iv.setImageResource(R.drawable.ngoncung);
+
+
+                        break;
+
+                    case 27:
+
+                        // iv.setImageResource(R.drawable.hlucky);
+
+
+                        break;
+
+
+                    case 28:
+
                         iv.setImageResource(R.drawable.hlucky);
 
-                        close.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View view) {
-                                dialog.dismiss();
-                            }
-                        });
-
-                        dialog.show();
                         break;
 
                 }
+
+                dialog.show();
             }
-                });
+        });
 
 
-        return rootView;
+
     }
 
 }

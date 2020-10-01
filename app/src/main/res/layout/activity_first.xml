@@ -22,4 +22,14 @@
         android:textStyle="bold" />
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:text="개발자 UID : 12105257 "
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+
 </LinearLayout>

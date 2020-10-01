@@ -12,10 +12,23 @@
                     android:icon="@drawable/in"
                     android:title="생존자"/>
 
+
                 <item
                     android:id="@+id/menu2"
                     android:icon="@drawable/ing"
-                    android:title="인격"/>
+                    android:title="생존자 인격"/>
+
+
+                <item
+                    android:id="@+id/menu1_2"
+                    android:icon="@drawable/in"
+                    android:title="감시자"/>
+
+
+                <item
+                    android:id="@+id/menu2_2"
+                    android:icon="@drawable/ing"
+                    android:title="감시자 인격"/>
 
 
             </menu>

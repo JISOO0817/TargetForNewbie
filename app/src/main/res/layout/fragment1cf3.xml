@@ -9,10 +9,23 @@
     android:paddingBottom="16dp"
     >
 
+   <!-- <EditText
+        android:id="@+id/searchEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:background="@drawable/shape_rect02"
+        android:drawableLeft="@drawable/search_image"
+        android:drawablePadding="10dp"
+        android:hint=" 검색"
+        android:padding="10dp" /> -->
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchEt"/>
 </RelativeLayout>
 
 

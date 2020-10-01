@@ -139,18 +139,6 @@
                 app:srcCompat="@drawable/i11" />
 
 
-            <TextView
-                android:id="@+id/textView6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/baemin"
-                android:gravity="center"
-                android:padding="10dp"
-                android:lineSpacingExtra="20dp"
-                android:text="@string/fragment1cf2_6"
-                android:textSize="15dp" />
-
-
             <ImageView
                 android:id="@+id/iv"
                 android:layout_width="wrap_content"

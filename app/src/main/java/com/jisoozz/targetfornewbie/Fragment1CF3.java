@@ -1,10 +1,13 @@
 package com.jisoozz.targetfornewbie;
 
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import androidx.annotation.Nullable;
@@ -19,6 +22,7 @@ public class Fragment1CF3 extends Fragment {
 
 
     private RecyclerView recyclerView;
+    private EditText searchEt;
 
     @Nullable
     @Override
@@ -27,18 +31,14 @@ public class Fragment1CF3 extends Fragment {
 
 
         recyclerView = rootView.findViewById(R.id.recyclerView);
+        searchEt = rootView.findViewById(R.id.searchEt);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false));
         List<ExpandableListAdapter.Item> data = new ArrayList<>();
 
-      /*  data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "Fruits"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Apple"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Orange"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Banana"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "Cars"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Audi"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Aston Martin"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "BMW"));
-        data.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "Cadillac"));*/
+        ExpandableListAdapter.Item a0 = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "감표");
+        a0.invisibleChildren = new ArrayList<>();
+        a0.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "감정표현의 준말. "));
+        data.add(a0);
 
         ExpandableListAdapter.Item a = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "그님티");
         a.invisibleChildren = new ArrayList<>();
@@ -49,6 +49,12 @@ public class Fragment1CF3 extends Fragment {
         b.invisibleChildren = new ArrayList<>();
         b.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "귀신의 집의 준말이다."));
         b.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "유저들끼리 하는 연합 커스텀 게임을 말한다."));
+        data.add(b);
+
+        ExpandableListAdapter.Item nn = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "나남즐");
+        nn.invisibleChildren = new ArrayList<>();
+        nn.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "나쁜 남자 즐연커의 준말."));
+        nn.invisibleChildren.add(new ExpandableListAdapter.Item(ExpandableListAdapter.CHILD, "유저들끼리 하는 연합 커스텀 게임을 말한다."));
         data.add(b);
 
         ExpandableListAdapter.Item c = new ExpandableListAdapter.Item(ExpandableListAdapter.HEADER, "디코");
@@ -178,6 +184,7 @@ public class Fragment1CF3 extends Fragment {
         data.add(o);
 
         recyclerView.setAdapter(new ExpandableListAdapter(data));
+
 
 
         return rootView;
